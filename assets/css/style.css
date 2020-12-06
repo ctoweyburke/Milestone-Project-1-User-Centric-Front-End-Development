@@ -39,7 +39,30 @@ header{
     {
         font-family: 'exo', sans-serif;
         font-weight: 200;
-        font-size: 30px;
+        font-size: 20px;
         color:#800000;
         margin-top: 20px;
     }
+
+    .social-networks{
+        text-align: center;
+        margin-top: 160px;
+        }
+        
+    .social-networks li{
+        display: inline;
+    }
+
+    .social-networks i{
+        font-size: 50px;
+        padding: 3%;
+        color: #800000;
+        left: 0;
+        
+    }
+
+background:url("../images/buster.jpg");
+
+background:url("../images/galwayteam2019.jpg");
+
+background:url("../images/galwayteam2020.jpg");
