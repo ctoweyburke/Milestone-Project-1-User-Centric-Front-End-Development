@@ -6,6 +6,34 @@
     background-color: #ffffff;
 }
 
+.ui-menu-color-home{
+    background-color: #800000;
+   }
+
+.ui-menu-color-news{
+    background-color: #800000;
+   }
+
+.ui-menu-color-clubs{
+    background-color: #800000;
+   }
+
+.ui-menu-color-contact-us{
+    background-color: #800000;
+   }
+
+.nav-title {
+    color: white;
+       
+}
+
+.icon {
+    color: #fafafa;
+  }
+
+  #cover-text, #cover-text h2{
+color: maroon;
+}
 /*=================================================headings*/
 header{
     margin:0;
@@ -29,10 +57,12 @@ header{
     .name{
         font-family: 'Permanent Marker', cursive;
         font-weight: 500;
-        font-size: 100px;
+        font-size: 80px;
         color:rgb(128,0,0);
         margin-top: 50px;
         text-align: left;
+        text-transform: Uppercase;
+        text-shadow: 0 0 10px #fafafa;
     }
 
     .title
@@ -42,6 +72,7 @@ header{
         font-size: 20px;
         color:#800000;
         margin-top: 20px;
+        
     }
 
     .social-networks{
@@ -61,8 +92,56 @@ header{
         
     }
 
-background:url("../images/buster.jpg");
+.menucontainer{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "exo";
+    padding: 0;
+       }
 
-background:url("../images/galwayteam2019.jpg");
+#nav li{
+    font-size: 16;
+    padding: 0;
+}
+.nav-title {
+    font-size: 20px;
+    font-weight: 400;
+    }
+#galway-team-outer{
+    background:url("../images/galwayteam20.jpg");
+    height: 350px;
+    width: 100%;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    position: relative;
+}
 
-background:url("../images/galwayteam2020.jpg");
+#cover-text{
+    font-family: "Exo", sans-serif;
+    Font-size: 3px;    
+    letter-spacing: 2px;
+
+    outline: 5px dashed rgba(247,247,247,0.13);
+    outline-offset: 0px;
+
+    width: 400px;
+    height:100px ;
+    scale: 0.2;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    text-align: center;
+
+    background-color: #fafafa;
+
+    bottom: 30px;
+    right: 400px;
+
+    position: absolute;
+    bottom: 30px;
+}
+
