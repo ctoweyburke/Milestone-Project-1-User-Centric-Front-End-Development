@@ -97,7 +97,7 @@ header{
     text-align: center;
     letter-spacing: 2px;
     font-family: "exo";
-    padding: 0;
+    padding: 10px;
        }
 
 #nav li{
@@ -145,3 +145,15 @@ header{
     bottom: 30px;
 }
 
+footer{
+    height: 200px;
+    background-color: #800000;
+}
+
+.heading-footer{
+    font-family: "PermanentMarker", Exo;
+    font-size: 16px;
+    text-transform: Uppercase;
+    text-align: left;
+    scale: 0.2px;
+    }
